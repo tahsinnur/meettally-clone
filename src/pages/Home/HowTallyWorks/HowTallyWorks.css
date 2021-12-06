@@ -1,0 +1,8 @@
+.howtallyworks{
+    background-image: url(https://www.meettally.com/images/blobs/curve-large--primary-light-flipped.png);
+    height: 270px;
+    padding-top: 30px;
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

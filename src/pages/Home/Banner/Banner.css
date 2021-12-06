@@ -1,0 +1,54 @@
+.banner{
+    background-image: url(https://images.ctfassets.net/csd0v5p1fzif/1KkqapQruT8laluRT4QaQf/44e7521a88c037cefb6182117c7d42b1/lady-hero-1-min.png);
+    background-size: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+    height: 764px;
+}
+.banner-content{
+    background-color: rgb(0, 78, 52);
+}
+.banner-content h1{
+    position: relative;
+    text-align: left;
+    padding-bottom: 30px;
+    font-size: 50px;
+    color: white;
+}
+.banner-content h1::before{
+    position: absolute;
+    height: 9px;
+    width: 46px;
+    background-color: rgb(255, 126, 112);
+    bottom: 0px;
+    left: 0px;
+    content: "";
+}
+.banner-btn{
+    position: relative;
+    width: 300px;
+    border-radius: 100px;
+    display: inline-block;
+    letter-spacing: 0.5px;
+    border: none;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+
+    font-weight: 700;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 78, 52);
+}
+.banner-btn::after{
+    position: absolute;
+    content: "";
+    background-image: url(https://www.meettally.com/images/navigation/arrow__right--primary.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    height: 20px;
+    width: 20px;
+    right: 21px;
+    top: 18px;
+    transition: all 0.3s ease 0s;
+}
