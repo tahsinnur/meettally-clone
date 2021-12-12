@@ -1,0 +1,50 @@
+.payoff-section{
+    padding:100px 0;
+    color: rgb(35, 44, 42);
+}
+.payoff-content{
+    position: relative;
+}
+.payoff-content::before{
+    position: absolute;
+    content: "";
+    left: 21px;
+    top: 90px;
+    width: 1px;
+    height: 100%;
+    border-left: 1px solid rgb(117, 188, 255);
+}
+.num-div{
+    margin-right: 50px;
+}
+.num-1{
+    padding: "20px 32px 20px 0px";
+    position:absolute;
+}
+
+.payoff-btn{
+    position: relative;
+    width: 300px;
+    border-radius: 100px;
+    display: inline-block;
+    letter-spacing: 0.5px;
+    border: none;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+
+    font-weight: 700;
+    text-align: left;
+}
+.payoff-btn::after{
+    position: absolute;
+    content: "";
+    background-image: url(https://www.meettally.com/images/navigation/arrow__right--white.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    height: 20px;
+    width: 20px;
+    right: 21px;
+    top: 18px;
+    transition: all 0.3s ease 0s;
+}
